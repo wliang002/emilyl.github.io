@@ -1,0 +1,96 @@
+body {
+    background-color: white;
+    margin:0;
+    padding:0;
+}
+
+#full {
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    background-color: #a8a6ad;
+    background-image: url("../images/fresh-snow.png");
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 30px 10px 100px 10px;
+    border-bottom: 8px;
+    border-style: solid;
+    border-bottom-color: #4aaaa5;
+    border-top-color: #515151;
+    clear: both;
+}
+
+header {
+    color: white;
+    font-family: "Palatino Linotype";
+    font-size: 14;
+    background-color: #4aaaa5;
+    width: 200px;
+    margin-left: 140px;
+    padding: 2px;
+    text-align: center;
+    flex: none;
+    border-bottom: 50px;
+    border-bottom-color: black;
+    margin-bottom: 0;
+    margin-top: 20px;
+
+}
+
+.menu {
+    padding: 20px;
+    margin: 0em;
+    margin-right: 120px;
+    color: #a5a5a5;
+    float: right;
+    font-family:  "Palatino Linotype";
+  
+}
+
+a:link {
+    color: #a5a5a5;
+    text-decoration: none;
+    
+}
+
+a:visited {
+    color: #a5a5a5;
+}
+
+.main {   
+    width: 70%;
+    height: 50%;
+    margin: 0em auto;
+    padding: 20px;
+    border: 100px;
+    border-bottom-color: #4aaaa5;
+    background-color: #fff;
+}
+
+
+.about {
+    font-family: "Palatino Linotype";
+    font-size: 36;
+    color: #4aaaa5;
+}
+
+.intro {
+    color: #777777;
+    text-indent: 1cm;
+    line-break: auto;
+    line-height: 1cm;
+}
+.floatleft {
+    float:left;
+}
+footer {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 10;
+    font-family: Arial;
+    padding: 20px;
+    clear: both;
+    margin: 0;
+    background: #515151;
+  }
